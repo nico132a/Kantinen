@@ -3,8 +3,64 @@
 @{
     ViewData["Title"] = "Home page";
 }
+<style>
+  table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+  th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+  }
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  tr:hover {
+    background-color: #ddd;
+  }
+</style>
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">ugens menu uge 45</h1>
+    <table>
+  <tr>
+    <th>Dag</th>
+    <th>Varm ret</th>
+    <th>kold ret</th>
+  </tr>
+  <tr>
+    <td>Man</td>
+    <td>Kylling og pasta</td>
+    <td>Smørebrød</td>
+  </tr>
+  <tr>
+    <td>Tirs</td>
+    <td>Græskersuppe</td>
+    <td>Pastasalat</td>
+  </tr>
+  <tr>
+    <td>Ons</td>
+    <td>Lasagne</td>
+    <td>Salat med kylling</td>
+  </tr>
+  <tr>
+    <td>Tors</td>
+    <td>Frikadeller og kartofler</td>
+    <td>Tunsalat</td>
+  </tr>
+  <tr>
+    <td>Fre</td>
+    <td>Pizza</td>
+    <td>Æggesalat</td>
+  </tr>
+</table>
+
 </div>
